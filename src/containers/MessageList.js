@@ -10,7 +10,7 @@ class MessageList extends React.Component {
     <>
       <h3>Latest Messages:</h3>
       <ol>
-        {arr.map(text => <Message text={text} />)}
+        {arr.map(text => <Message text={text} numberOfLikes={2} />)}
       </ol>
     </>
     )
